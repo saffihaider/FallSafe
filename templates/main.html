@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    FallSafe
+{% endblock %}
+
+{% block main %}
+
+<div class="container" align="middle">
+<div class="card" style="width: 40rem; padding: 5px; background-color: Black;" >
+  <img class="rounded mx-auto d-block" width="500" height="616" src="{{url_for('static', filename='Senior.jpeg')}}" alt="Senior image">
+  <div class="card-body">
+  <div class="jumbotron">
+    <h1 class="display-4">Home safety doesn't have to break the bank.</h1>
+    <p class="lead">Sign up now to gain access to our AI-powered realtime emergency detection system.</p>
+    <a class="btn btn-dark btn-lg" href="/register" role="button">Register Now</a>
+  </div>
+  </div>
+</div>
+</div>
+
+{% endblock %}
