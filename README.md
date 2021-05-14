@@ -1,4 +1,4 @@
-# FallSafe
+## FallSafe
 
 Fallsafe uses real-time video monitoring to estimate and classify poses using PosNet and a trained Teachable Machine neural network. We classified poses into two categories: Safe or Fallen down. If the user has fallen and stayed down, we send out an alert to their emergency contact.
 
