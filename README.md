@@ -3,7 +3,7 @@
 Fallsafe uses real-time video monitoring to estimate and classify poses using PosNet and a trained Teachable Machine neural network. We classified poses into two categories: Safe or Fallen down. If the user has fallen and stayed down, we send out an alert to their emergency contact.
 
 
-How we built it:
+# How we built it: #
 
 We followed along with YoutTube videos and blog posts about ml5 projects and PosNet to get the framework of what we wanted to do. We then trained our neural network on teachable machine using a limited dataset of recorded video snapshots and images from datasets. Finally we integrated our neural network into the model, formatted our site on bootstrap, and combined our code to finally put the site together.
 
